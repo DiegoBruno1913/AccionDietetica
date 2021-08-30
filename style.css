@@ -1,0 +1,225 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(0, 120, 0, 0.3),rgba(0, 190, 0, 0.3)), url('./Imagenes/LogoDieteticaAccion.jpg');
+}
+.navegacion
+{
+    /* background-color: rgba(0, 200, 0, 0.5); */
+    height: 65%;
+    padding: 0;
+}
+.navegacion a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-shadow: 2px 2px yellowgreen;
+}
+.navegacion a:hover
+{
+    background-color: rgb(0, 230, 0);
+    color: black;
+    text-decoration: none;
+}
+
+:hover
+{
+    float: left;
+    padding: 0px 20px 20px 20px;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+} 
+.titulo
+{
+    background-image: url('./Imagenes/cartel.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px;
+    height: 35%;
+    filter: saturate(60%);
+}
+.titulo h1
+{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+    text-shadow: 4px 4px black;
+    padding-left: 30px;
+    margin: 0;
+    /* transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s; */
+}
+.titulo h1:hover
+{
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 0s;
+    font-size: 70px;
+}
+
+
+.texto1, .texto2, .texto3
+{
+    border: 3px solid black;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+}
+h3
+{
+    border: 6px double black;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-weight: bold;
+}
+h3:hover
+{
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 0s;
+    font-size: 35px; 
+    background-color: yellowgreen;
+}
+
+.formulario
+{
+    height: 45%;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    background-color: rgba(0, 200, 0, 0.5);
+    text-align: center;
+}
+
+.direccion
+{
+    font-size: 24px;
+    float: inline-end;
+    font-weight: bold;
+    border: 4px solid black;
+    background-color: rgba(167, 231, 167, 0.5);
+}
+.direccion h4
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.der
+{
+    width: 40%;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    background-color: green;
+    margin: 10px;
+    padding: 15px;
+}
+.der h1
+{
+    text-decoration: underline;
+    text-shadow: 2px 2px yellowgreen;
+}
+.izq
+{
+    width: 40%;
+    height: 100%;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    background-color: green;
+    margin: 10px;
+    padding: 15px;
+}
+
+ 
+
+.parteBaja
+{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0, 150, 0, 0.5);
+    justify-content: center;
+    position: static;
+}
+
+.parteBajaContacto
+{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0, 150, 0, 0.5);
+    justify-content: center; 
+}
+
+.instagram
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: right;
+    height: 20%;
+}
+.textInsta
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 5px 5px yellowgreen;
+    height: 100%;
+}
+.latia
+{
+    height: 100%;
+}
+footer
+{
+    height: 15%;
+}
+.firma
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+} 
+
+.alfajores, .frutos, .muecas, .pan, .sahumerios, .ultimo
+{
+    font-size: 30px;
+    border: 4px solid black;
+    background-color: green;
+}
+.alfajores:hover, .frutos:hover, .muecas:hover, .pan:hover, .sahumerios:hover, .ultimo:hover
+{
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 0s;
+    font-size: 35px; 
+    background-color: yellowgreen;
+}
+

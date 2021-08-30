@@ -1,0 +1,39 @@
+
+.container
+{
+    height: 100%;
+    background-color: red;
+}
+
+.Arriba
+{
+    height: 100%;
+    background-color: black;
+}
+.cartel
+{
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.Cuerpo
+{
+    height: 100%;
+}
+.izq
+{
+    height: 35%;
+    background-color: green;
+}
+
+.med
+{
+    height: 30%;
+    background-color: gray;
+}
+
+.der
+{
+    height: 35%;
+    background-color: brown;
+}
